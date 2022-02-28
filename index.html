@@ -64,6 +64,8 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = Math.min(config.devicePixelRatio, 2);
       }
+      config.devicePixelRatio = 1;
+
       loadingCover.style.display = "";
 
       const script = document.createElement("script");
